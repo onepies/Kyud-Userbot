@@ -65,7 +65,7 @@ async def _(event):
     if not input_str:
         chat = to_write_chat
     else:
-        mentions = "👑 Bot Dalam {} Channel Ini: \n".format(input_str)
+        mentions = "🔥 Bot Dalam {} Channel Ini: \n".format(input_str)
         try:
             chat = await bot.get_entity(input_str)
         except Exception as e:
@@ -108,14 +108,14 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.kickme$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit("`⚡️ King Telah Meninggalkan Grup...`")
+    await leave.edit("`🔥 Kyud Telah Meninggalkan Grup...`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
 @register(outgoing=True, pattern="^.leave$")
 async def kickme(leave):
     """ Basically it's .leave command """
-    await leave.edit("`⚡️ King Telah Keluar Grup...`")
+    await leave.edit("`🔥 Kyud Telah Keluar Grup...`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -124,7 +124,7 @@ async def kickme(leave):
     """ Basically it's .keluar command """
     await leave.edit("`Keluar ajalah anjg , GC AMPAS GAK GUNA INI ...`")
     sleep(2)
-    await leave.edit("`⚡️ King Telah Keluar Grup...`")
+    await leave.edit("`🔥 Kyud Telah Keluar Grup...`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -152,7 +152,7 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh King Telah Membisukan Obrolan!`")
+    await mute_e.edit("`Ssshssh Kyud Telah Membisukan Obrolan!`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
