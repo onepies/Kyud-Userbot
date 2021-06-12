@@ -73,10 +73,10 @@ async def _(fry):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await fry.reply("`King Mohon Unblock` @image_deepfrybot`...`")
+            await fry.reply("`Kyud Mohon Unblock` @image_deepfrybot`...`")
             return
         if response.text.startswith("Forward"):
-            await fry.edit("`King Mohon Matikan Setelan Forward Privasi...`")
+            await fry.edit("`Kyud Mohon Matikan Setelan Forward Privasi...`")
         else:
             downloaded_file_name = await fry.client.download_media(
                 response.media,
@@ -116,7 +116,7 @@ async def _(fry):
         await fry.edit("`Mohon Balas Di Sticker King`")
         return
     if reply_message.sender.bot:
-        await fry.edit("`Mohon Balas Di Sticker King`")
+        await fry.edit("`Mohon Balas Di Sticker Kyud`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
@@ -135,10 +135,10 @@ async def _(fry):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await fry.reply("`King Mohon Unblock` @image_deepfrybot`...`")
+            await fry.reply("`Kyud Mohon Unblock` @image_deepfrybot`...`")
             return
         if response.text.startswith("Forward"):
-            await fry.edit("`King Mohon Matikan Setelan Privasi Forward...`")
+            await fry.edit("`Kyud Mohon Matikan Setelan Privasi Forward...`")
         else:
             downloaded_file_name = await fry.client.download_media(
                 response.media,
