@@ -224,7 +224,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyudalive|kyudon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:kingalive|kingon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -244,7 +244,7 @@ async def amireallyalive(alive):
         f"╰╼━━━━━━━━━━━━━━━━━━━━━\n"
         f"⚡ **Repo Userbot :** [Kyud-Userbot](https://github.com/onepies/Kyud-Userbot) \n"
         f"⚡ **Group Support :** [Klik Disini](https://t.me/VirtusSupportGroup) \n"
-        f"⚡ **Pemilik :** [Developer Kyud](https://t.me/boyfriendnice)")
+        f"⚡ **Pemilik :** [Owner Kyud](https://t.me/boyfriendnice)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -283,7 +283,7 @@ async def amireallyalive(alive):
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"◈ **REPO USERBOT  :** [Kyud-Userbot](https://github.com/onepies/Kyud-Userbot) \n"
         f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/VirtusSupportGroup) \n"
-        f"◈ **PEMILIK :** [Developer Kyud](https://t.me/boyfriendnice) \n"
+        f"◈ **PEMILIK :** [Owner Kyud](https://t.me/boyfriendnice) \n"
         f"━━━━━━━━━━━━━━━━━━━━━╯")
     if ALIVE_LOGO:
         try:
@@ -353,7 +353,7 @@ async def redis(alive):
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f" ㅤ**★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★** \n"
+        f" ㅤ  **★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
@@ -366,11 +366,11 @@ async def redis(alive):
         f"╟◈ 👾 `Bot Ver  :`v. {BOT_VER} \n"
         f"╟◈ 📂 `Plugins  :`{len(modules)} Plugins \n"
         f"┞╼════════════════════╾┤ \n"
-        f"├◈ **Support Terus Repo Kami** \n"
-        f"│    **Dengan Link Di Bawah Ini.** \n"
+        f"├◈ **Userbot Ini Hanya Untuk** \n"
+        f"│    **Bersenang-senang.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"[Repo Userbot](https://apisuserbot.github.io/King-Userbot) | [Grup Support](t.me/VirtusSupportGroup) | "
-        f"[Developer Kyud](t.me/boyfriendnice)")
+        f"[Repo Userbot](https://onepies.github.io/Kyud-Userbot) | [Grup Support](t.me/VirtusSupportGroup) | "
+        f"[Owner Kyud](t.me/boyfriendnice)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -407,7 +407,7 @@ async def redis(alive):
         f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
         f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
-        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/VirtusSupportGroup) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/MusikManagement) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗞𝗶𝗻𝗴](t.me/boyfriendnice)")
+        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/VirtusSupportGroup) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/MusikManagement) | [𝙊𝙬𝙣𝙚𝙧 𝗞𝗶𝗻𝗴](t.me/boyfriendnice)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
