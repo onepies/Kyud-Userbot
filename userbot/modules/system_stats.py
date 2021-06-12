@@ -224,15 +224,15 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kingalive|kingon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:kyudalive|kyudon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"┗┓★ ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ★┏┛\n"
+        f"┗┓★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★┏┛\n"
         f"\n__**{KING_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━━**\n"
-        f"★ **✭ King ✭** \n"
+        f"★ **✭ Kyud ✭** \n"
         f"☇ : `{DEFAULTUSER}` \n"
         f"★ **✭ Username ✭** \n"
         f"☇ : `@{user.username}` \n"
@@ -242,9 +242,9 @@ async def amireallyalive(alive):
         f"|✶ 👾 `Bot Ver  :`{BOT_VER} \n"
         f"|✶ 📂 `Plugins  :`{len(modules)} \n"
         f"╰╼━━━━━━━━━━━━━━━━━━━━━\n"
-        f"⚡ **Repo Userbot :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        f"⚡ **Group Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
-        f"⚡ **Pemilik :** [Developer King](https://t.me/PacarFerdilla)")
+        f"⚡ **Repo Userbot :** [Kyud-Userbot](https://github.com/onepies/Kyud-Userbot) \n"
+        f"⚡ **Group Support :** [Klik Disini](https://t.me/VirtusSupportGroup) \n"
+        f"⚡ **Pemilik :** [Developer Kyud](https://t.me/boyfriendnice)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -270,7 +270,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"𝗫 ★⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡★ 𝗫 \n"
+        f"𝗫 ★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★ 𝗫 \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
         f"╟ 🤴 KING     : {DEFAULTUSER}\n"
         f"╟ 🔎 Username : @{user.username}\n"
@@ -281,9 +281,9 @@ async def amireallyalive(alive):
         f"╟◈ 🛠 `Version  :`{BOT_VER} \n"
         f"╟◈ 📂 `Plugins  :`{len(modules)} Plugin \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
-        f"◈ **REPO USERBOT  :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
-        f"◈ **PEMILIK :** [Developer King](https://t.me/PacarFerdilla) \n"
+        f"◈ **REPO USERBOT  :** [Kyud-Userbot](https://github.com/onepies/Kyud-Userbot) \n"
+        f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/VirtusSupportGroup) \n"
+        f"◈ **PEMILIK :** [Developer Kyud](https://t.me/boyfriendnice) \n"
         f"━━━━━━━━━━━━━━━━━━━━━╯")
     if ALIVE_LOGO:
         try:
@@ -318,42 +318,42 @@ async def redis(alive):
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑..__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑.__")
     await alive.edit("__𝐗...𝐒𝐈𝐒𝐓𝐄𝐌...𝐗__")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡              👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡             👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡            👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡           👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡          👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡         👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡        👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡       👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡      👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡     👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡    👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡   👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡  👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ 👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏👑")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊👑⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽👑𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍👑𝙊𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀👑𝘽𝙊𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐𝙎👑𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-𝙐👑𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴-👑𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻𝗴👑𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡𝗞𝗶𝗻👑-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡𝗞👑𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡👑𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("👑𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥              👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥             👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥            👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥           👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥          👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥         👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥        👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥       👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥      👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥     👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥    👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥   👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥  👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥👑")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠👑🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓👑𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣👑𝕠𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖👑𝕓𝕠𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌𝕤👑𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-𝕌👑𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕-👑𝕤𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦𝕕👑𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("🔥𝕂𝕪𝕦👑-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("🔥𝕂👑𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("⚡👑𝕪𝕦𝕕--𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("👑𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
     await alive.edit("⚡")
     await asyncio.sleep(3)
     await alive.edit("😈")
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f" ㅤ**★ ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ★** \n"
+        f" ㅤ**★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
@@ -369,8 +369,8 @@ async def redis(alive):
         f"├◈ **Support Terus Repo Kami** \n"
         f"│    **Dengan Link Di Bawah Ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"[Repo Userbot](https://apisuserbot.github.io/King-Userbot) | [Grup Support](t.me/KingUserbotSupport) | "
-        f"[Developer King](t.me/PacarFerdilla)")
+        f"[Repo Userbot](https://apisuserbot.github.io/King-Userbot) | [Grup Support](t.me/VirtusSupportGroup) | "
+        f"[Developer Kyud](t.me/boyfriendnice)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -402,12 +402,12 @@ async def redis(alive):
     output = (
         f"★ [King-Userbot](https://github.com/apisuserbot/King-Userbot) **Running Userbot Active!** ★\n\n"
         f"__**{KING_TEKS_KUSTOM}**__\n\n"
-        f"{ALIVE_EMOJI} **King :** `{DEFAULTUSER}` \n"
+        f"{ALIVE_EMOJI} **Kyud :** `{DEFAULTUSER}` \n"
         f"{ALIVE_EMOJI} **Plugins :** `{len(modules)} Plugin` \n"
         f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
         f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
-        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/KingUserbotSupport) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/TeamKingUserbot) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗞𝗶𝗻𝗴](t.me/PacarFerdilla)")
+        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/VirtusSupportGroup) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/MusikManagement) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗞𝗶𝗻𝗴](t.me/boyfriendnice)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
