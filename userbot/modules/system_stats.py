@@ -232,7 +232,7 @@ async def amireallyalive(alive):
         f"┗┓★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★┏┛\n"
         f"\n__**{KING_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━━**\n"
-        f"★ **✭ Kyud ✭** \n"
+        f"★ **✭ KYUD ✭** \n"
         f"☇ : `{DEFAULTUSER}` \n"
         f"★ **✭ Username ✭** \n"
         f"☇ : `@{user.username}` \n"
@@ -272,7 +272,7 @@ async def amireallyalive(alive):
     output = (
         f"𝗫 ★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★ 𝗫 \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"╟ 🤴 KING     : {DEFAULTUSER}\n"
+        f"╟ 🤴 KYUD     : {DEFAULTUSER}\n"
         f"╟ 🔎 Username : @{user.username}\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"╟◈ ⚙️ `Telethon :`v {version.__version__} \n"
@@ -345,7 +345,7 @@ async def redis(alive):
     await alive.edit("🔥𝕂𝕪𝕦𝕕👑𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
     await alive.edit("🔥𝕂𝕪𝕦👑-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
     await alive.edit("🔥𝕂👑𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
-    await alive.edit("⚡👑𝕪𝕦𝕕--𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
+    await alive.edit("🔥👑𝕪𝕦𝕕--𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
     await alive.edit("👑𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥")
     await alive.edit("⚡")
     await asyncio.sleep(3)
@@ -353,7 +353,7 @@ async def redis(alive):
     await asyncio.sleep(3)
     output = (
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f" ㅤ  **★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★** \n"
+        f" ㅤ   **★ 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 ★** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
@@ -400,7 +400,7 @@ async def redis(alive):
     await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
-        f"★ [King-Userbot](https://github.com/apisuserbot/King-Userbot) **Running Userbot Active!** ★\n\n"
+        f"★ [Kyud-Userbot](https://github.com/onepies/Kyud-Userbot) **Running Userbot Active!** ★\n\n"
         f"__**{KING_TEKS_KUSTOM}**__\n\n"
         f"{ALIVE_EMOJI} **Kyud :** `{DEFAULTUSER}` \n"
         f"{ALIVE_EMOJI} **Plugins :** `{len(modules)} Plugin` \n"
