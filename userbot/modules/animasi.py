@@ -434,7 +434,7 @@ async def _(event):
         " __Dibuat Oleh :__ [Owner Kyud](https://t.me/boyfriendnice) ")
 
 
-@register(outgoing=True, pattern='^.owner(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ownkyud(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Owner Kyud`")
@@ -530,7 +530,7 @@ CMD_HELP.update(
         \n  •  **Function : **Mengirim cinta ke seseorang\
         \n\n  •  **Perintah :** `.gombal`\
         \n  •  **Function : **Jadi buaya kang gombal\
-        \n\n  •  **Perintah :** `.owner`\
+        \n\n  •  **Perintah :** `.ownkyud`\
         \n  •  **Function : **Hanya bercanda\
         \n\n  •  **Perintah :** `.userbot`\
         \n  •  **Function : **Mengatakan bahwa anda userbot\
