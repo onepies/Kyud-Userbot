@@ -428,26 +428,26 @@ async def _(event):
     event.pattern_match.group(1)
     await event.edit(
         " **Hay Semua** __Aku Userbot__ 😎 \n"
-        " **Aku Belajar Di** [Grup Support](https://t.me/KingUserbotSupport) \n"
+        " **Aku Belajar Di** [Grup Support](https://t.me/VirtusSupportGroup) \n"
         " __Seru Lho Jadi Pengguna Userbot__ 🥳 \n"
         " **Dengan Berbagai Macam Plugin Dan Perintah Userbot** \n"
-        " __Dibuat Oleh :__ [Developer King](https://t.me/PacarFerdilla) ")
+        " __Dibuat Oleh :__ [Owner Kyud](https://t.me/boyfriendnice) ")
 
 
-@register(outgoing=True, pattern='^.terkadang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.owner(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Terkadang`")
+    await typew.edit("`Owner Kyud`")
     sleep(1)
-    await typew.edit("`Mencintai Seseorang`")
+    await typew.edit("`Adalah Seseorang`")
     sleep(1)
-    await typew.edit("`Hanya Akan Membuang Waktumu`")
+    await typew.edit("`Yang Paling Ganteng`")
     sleep(1)
-    await typew.edit("`Ketika Waktumu Habis`")
+    await typew.edit("`Baik Dan Ramah`")
     sleep(1)
-    await typew.edit("`Tambah Aja 5000`")
+    await typew.edit("`Kepada Semua Orang`")
     sleep(1)
-    await typew.edit("`Bercanda`")
+    await typew.edit("`Bercanda xixixi`")
 # Create by myself @localheart
 
 
@@ -498,23 +498,23 @@ async def _(event):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Hai, I LOVE YOU 💞`")
+    await typew.edit("`Hai, CINTA KITA SEPERTI`")
     sleep(1)
-    await typew.edit("`I LOVE YOU SO MUCH!`")
+    await typew.edit("`KOTA BOGOR YA..!`")
     sleep(1)
-    await typew.edit("`I NEED YOU!`")
+    await typew.edit("`UDAH INDAH SEJUK DAN NYAMAN!`")
     sleep(1)
-    await typew.edit("`I WANT TO BE YOUR BOYFRIEND!`")
+    await typew.edit("`JADI TAMBAH SAYANG AHH..!`")
     sleep(1)
     await typew.edit("`I LOVEE YOUUUU💕💗`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💗💞`")
+    await typew.edit("`I MISS YOUUUU💗💞`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💝💗`")
+    await typew.edit("`I NEED YOUUUU💝💗`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💟💖`")
+    await typew.edit("`I WANT YOUUUU💟💖`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💘💓`")
+    await typew.edit("`DUUUAAARRRR`")
     sleep(1)
     await typew.edit("`Tapi Bo'ong`")
 # Create by myself @localheart
@@ -530,7 +530,7 @@ CMD_HELP.update(
         \n  •  **Function : **Mengirim cinta ke seseorang\
         \n\n  •  **Perintah :** `.gombal`\
         \n  •  **Function : **Jadi buaya kang gombal\
-        \n\n  •  **Perintah :** `.terkadang`\
+        \n\n  •  **Perintah :** `.owner`\
         \n  •  **Function : **Hanya bercanda\
         \n\n  •  **Perintah :** `.userbot`\
         \n  •  **Function : **Mengatakan bahwa anda userbot\
