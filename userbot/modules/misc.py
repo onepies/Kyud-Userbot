@@ -124,10 +124,10 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         f"   ✘ **i'm** {DEFAULTUSER} **using userbot** ✘   \n"
         "         🔥 __Thanks for userbot__ 🔥   \n"
-        "✣ **Repo Userbot :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
+        "✣ **Repo Userbot :** [Kyud-Userbot](https://github.com/onepies/Kyud-Userbot) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/VirtusSupportGroup) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/TeamKingUserbot) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/PacarFerdilla) \n"
+        "✣ **Pemilik :** [Developer Kyud](https://t.me/boyfriendnice) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
