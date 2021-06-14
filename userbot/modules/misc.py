@@ -53,7 +53,7 @@ async def randomise(items):
 async def sleepybot(time):
     """ For .sleep command, let the userbot snooze for a few second. """
     counter = int(time.pattern_match.group(1))
-    await time.edit("`Saya tidur dulu King...⚡️`")
+    await time.edit("`Saya tidur dulu bro...🔥`")
     if BOTLOG:
         str_counter = time_formatter(counter)
         await time.client.send_message(
@@ -67,23 +67,23 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan King-Userbot....`")
+    await event.edit("`Mematikan Kyud-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`King-Userbot Telah Dimatikan`")
+                                        "`Kyud-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Memulai ulang King-Userbot...`")
+    await event.edit("`Memulai ulang Kyud-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`King-Userbot Telah Di Mulai Ulang`")
+                                        "`Kyud-Userbot Telah Di Mulai Ulang`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -138,9 +138,9 @@ async def repo_is_here(wannasee):
         "         ✘ **String Session Userbot** ✘   \n"
         "          🔥 __Thanks for userbot__ 🔥  \n"
         "✣ **Get string session :** [String Session](https://replit.com/@apisuserbot/String-Session?v=1) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/VirtusSupportGroup) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/TeamKingUserbot) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/PacarFerdilla) \n"
+        "✣ **Pemilik :** [Developer Kyud](https://t.me/boyfriendnice) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -151,9 +151,9 @@ async def repo_is_here(wannasee):
         "         ✘ **Tutorial Using Userbot** ✘   \n"
         "          🔥 __Thanks for userbot__ 🔥  \n"
         "✣ **Tutorial :** [Tutorial Deploy](https://t.me/TeamKingUserbot/16) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/KingUserbotSupport) \n"
+        "✣ **Grup Support :** [Klik Disini](https://t.me/VirtusSupportGroup) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/TeamKingUserbot) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/PacarFerdilla) \n"
+        "✣ **Pemilik :** [Developer Kyud](https://t.me/boyfriendnice) \n"
         "          ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -340,7 +340,7 @@ CMD_HELP.update(
     {
         "sleep": "**✘ Plugin : **`sleep`\
         \n\n  •  **Perintah :** `.sleep`\
-        \n  •  **Function : **Biarkan ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ tidur selama beberapa detik \
+        \n  •  **Function : **Biarkan 🔥𝕂𝕪𝕦𝕕-𝕌𝕤𝕖𝕣𝕓𝕠𝕥🔥 tidur selama beberapa detik \
     "
     }
 )
