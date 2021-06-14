@@ -67,9 +67,9 @@ async def set_afk(afk_e):
     else:
         await afk_e.edit(f"**🔥 Sibuk**\n\n╭╼══════════════╾\n**{ALIVE_NAME} Telah Sibuk!**\n╰╼═════════╾")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "⚡𝗦𝗜𝗕𝗨𝗞⚡"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "🔥𝗦𝗜𝗕𝗨𝗞🔥"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="⚡𝗦𝗜𝗕𝗨𝗞⚡"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="🔥𝗦𝗜𝗕𝗨𝗞🔥"))
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#SIBUK\n**Kyud Telah SIBUK!**")
     ISAFK = True
@@ -90,7 +90,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("⚡𝗦𝗜𝗕𝗨𝗞⚡"):
+    if last and last.endswith("🔥𝗦𝗜𝗕𝗨𝗞🔥"):
         last1 = last[:-12]
     else:
         last1 = ""
